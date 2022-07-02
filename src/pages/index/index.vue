@@ -8,7 +8,9 @@
     </image>
     <view class="a">临时停靠，请多关照</view>
     <view class="text-center my-2">{{ phone }}</view>
-    <view class="flex-center color-fff fsz24 btn" @click="call">呼叫车主</view>
+    <view class="mt-3 flex-center color-fff fsz40 btn" @click="call">
+      呼叫车主
+    </view>
   </view>
 </template>
 <script setup>
@@ -29,10 +31,10 @@ onLoad((i) => {
 </script>
 <style lang="scss" scoped>
 .btn {
-  width: 300rpx;
-  height: 60rpx;
+  width: 500rpx;
+  height: 100rpx;
   background: #3b88fe;
   box-shadow: 0rpx 8rpx 24rpx 0rpx rgba(59, 136, 254, 0.25);
-  border-radius: 30rpx;
+  border-radius: 50rpx;
 }
 </style>
